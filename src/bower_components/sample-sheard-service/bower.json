@@ -1,14 +1,13 @@
 {
-  "name": "my-event-tags",
+  "name": "sample-sheard-service",
   "version": "0.0.1",
-  "homepage": "https://github.com/MSakamaki/my-event-tags",
+  "homepage": "https://github.com/MSakamaki/sample-sheard-service",
   "authors": [
     "m.sakamaki <mail@m-sakamaki.jp>"
   ],
-  "description": "event tag component",
+  "description": "sample application",
   "main": [
-    "bin/index.js",
-    "bin/index.min.css"
+    "bin/index.js"
   ],
   "moduleType": [
     "es6"

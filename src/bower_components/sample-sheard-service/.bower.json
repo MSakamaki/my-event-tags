@@ -1,0 +1,35 @@
+{
+  "name": "sample-sheard-service",
+  "homepage": "https://github.com/MSakamaki/sample-sheard-service",
+  "authors": [
+    "m.sakamaki <mail@m-sakamaki.jp>"
+  ],
+  "description": "sample application",
+  "main": [
+    "bin/index.js"
+  ],
+  "moduleType": [
+    "es6"
+  ],
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "256d481180",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "256d4811805b65512a77829a1f10055535d7d408"
+  },
+  "_source": "https://github.com/MSakamaki/sample-sheard-service.git",
+  "_target": "*",
+  "_originalSource": "sample-sheard-service",
+  "_direct": true
+}

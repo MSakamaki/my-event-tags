@@ -1,0 +1,7 @@
+<div class="app-directive-sample-container">
+ <span class="app-sample-main">My Tag Directive</span>
+ <ul ng-repeat="tag in getTag()">
+   <li ng-click="setTag(tag)">{{tag}}</li>
+ </ul>
+ <button ng-click="clearTag()">tag clear</button>
+</div>
