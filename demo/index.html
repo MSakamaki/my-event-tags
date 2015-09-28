@@ -21,14 +21,12 @@
       '$scope',
       'app.component.events.sheard.service',
       function($scope, eventDatas){
-        window.eventDatas = eventDatas;
         $scope.eventDatas = eventDatas;
         eventDatas.event.create([
           {name:'A', tag:'fizz'},
           {name:'B', tag:'fizz'},
           {name:'C', tag:'bazz'},
         ]);
-        console.log('init', eventDatas.tag.get());
       }]);
   </script>
 </body>

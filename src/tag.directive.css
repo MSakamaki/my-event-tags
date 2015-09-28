@@ -12,13 +12,11 @@
   color: red;
 }
 
-/**
- * @example sass
- *
- * .app-directive-sample {
- *   font-weight: bold;
- *   .app-sample-main {
- *     color: red;
- *   }
- * }
- **/
+.app-directive-sample-container .app-sample-base {
+  transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+}
+
+.app-directive-sample-container .app-sample-base.app-sample-use {
+  color: yellow;
+  font-size:2em;
+}

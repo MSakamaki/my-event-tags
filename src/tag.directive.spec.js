@@ -31,15 +31,15 @@ describe('Directive: sample directive', function BasedTeseSwite() {
   var $compile;
   var directiveHTML = '<event-tags></event-tags>';
   var resultHTML =
-`<div class="app-directive-sample-container">
- <span class="app-sample-main">My Tag Directive</span>
- <!-- ngRepeat: tag in getTag() --><ul ng-repeat="tag in getTag()" class="ng-scope">
-   <li ng-click="setTag(tag)" class="ng-binding">fizz</li>
- </ul><!-- end ngRepeat: tag in getTag() --><ul ng-repeat="tag in getTag()" class="ng-scope">
-   <li ng-click="setTag(tag)" class="ng-binding">bazz</li>
- </ul><!-- end ngRepeat: tag in getTag() -->
- <button ng-click="clearTag()">tag clear</button>
-</div>`;
+`
+ My Tag Directive
+ 
+   [ ]fizz
+ 
+   [ ]bazz
+ 
+ tag clear
+`;
 
   beforeEach(inject([
     '$rootScope', '$compile', '$templateCache',
@@ -52,6 +52,6 @@ describe('Directive: sample directive', function BasedTeseSwite() {
   it('check...', function MakeHtmlElement() {
     element = $compile(directiveHTML)(scope);
     scope.$digest();
-    expect(element.html()).toBe(resultHTML);
+    expect(element.text()).toBe(resultHTML);
   });
 });
