@@ -31,6 +31,7 @@ module.exports = function(grunt) {
       ];
       return grunt.task.run(tasks);
     });
+
   grunt.registerTask('build', 'releace build', function(target) {
       var tasks = [
         'initialTasks',
@@ -44,6 +45,7 @@ module.exports = function(grunt) {
       ];
       return grunt.task.run(tasks);
     });
+
   grunt.registerTask('test', 'run unit testing', function(target) {
       var tasks = [
         'jscs:src',

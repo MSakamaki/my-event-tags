@@ -8,7 +8,7 @@
       src: '*.html',
       dest: '.tmp/templates.js',
       options: {
-        module: 'app.directive.sample',
+        module: 'app.component.events.directive',
       },
     },
   };
